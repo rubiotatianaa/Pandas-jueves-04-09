@@ -28,3 +28,6 @@ print(f'Estadisticas de la serie: {Datos.describe()}')
 
 #Orden de la serie
 print(f'Orden de la serie: {Datos.sort_values()}')
+print(f'Minimo de la serie de Datos: {Datos.min()}')
+print(f'Maximo de la serie de Datos: {Datos.max()}')
+print(f'Cantidad de elementos en la serie de Datos: {NuevaSerie.count()}')
