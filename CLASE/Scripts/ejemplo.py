@@ -17,3 +17,14 @@ indece = ['A', 'B', 'C', 'D', 'E', 'F']
 impares = pd.Series([11, 13, 15, 17, 19, 21], index=indece)
 print(impares)
 print(f'el dato en la posición marcada es: {impares['C']}')
+
+print(f'Los datos de la serie son: {NuevaSerie.head(2)}')
+
+#ultimos elementos de la serie
+print(f'Los ultimos datos de la serie son: {NuevaSerie.tail(2)}')
+
+#estadisticas de la serie
+print(f'Estadisticas de la serie: {Datos.describe()}')
+
+#Orden de la serie
+print(f'Orden de la serie: {Datos.sort_values()}')
